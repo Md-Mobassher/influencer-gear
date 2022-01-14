@@ -1,5 +1,5 @@
 /* font  */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 
 /* ===================
 ======= common css ==========
@@ -10,7 +10,8 @@
     box-sizing: border-box;
 }
 body{
-    font-family: 'Poppins', sans-serif;;
+    font-family: 'Poppins', sans-serif;
+    color: #3A3A3A;
 }
 .container{
     max-width: 1200px;
@@ -119,6 +120,51 @@ body{
 ============= products styles ===========
 =====================================*/
 
+.section-title{
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+}
+.product{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px;
+    box-shadow: 10px 10px 15px 15px rgba(0, 0, 0, 0.2);
+}
+.product-name h2{
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 40px;
+    margin-top: 16px;
+    margin-bottom: 6px;
+}
+.product-price h2{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+}
+.product-rating .fa-star.filled{
+    width: 16px;
+    height: 16px;
+    font-size: 12px;
+    color: #FB8200;
+}
+.product-rating .fa-star-half-alt.empty{
+    width: 15px;
+    height: 16px;
+    font-size: 12px;
+    color: #FB8200;
+}
+.product-rating span{
+    font-size: 14px;
+    font-weight: 600;
+}
+.product-info p{
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 10px;
+}
 
 
 
