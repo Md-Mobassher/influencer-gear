@@ -18,6 +18,12 @@ body{
     padding: 0 30px;
     margin-bottom: 100px;
 }
+.container-2{
+    max-width: 1050px;
+    margin: 0 auto;
+    padding: 0 30px;
+    margin-bottom: 100px;
+}
 .primary-button{
     outline: 0;
     border: 0;
@@ -107,3 +113,46 @@ body{
     height: 110px;
     border: 1px solid gray;
 }
+
+
+/*===================================
+============= products styles ===========
+=====================================*/
+
+
+
+
+
+/* ================================
+=========== footer styles =================
+=================================== */
+
+footer{
+    background: darkblue;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+.footer {
+    color: white;
+    width: 262px;
+    height: 139px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 30px;
+}
+.footer p{
+    font-size: 14px;
+}
+
+.social-icon {
+    width: 176px;
+    height: 32px;
+    margin: 0 auto;
+    padding: 5px;
+    font-size: 25px;
+    display: flex;
+    gap: 16px;
+    justify-content: space-evenly;
+} 
+
