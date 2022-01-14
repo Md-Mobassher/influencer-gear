@@ -16,13 +16,30 @@ body{
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 30px;
+    margin-bottom: 100px;
+}
+.primary-button{
+    outline: 0;
+    border: 0;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 24px; 
+    border-radius: 41px;
+    color: #fff;
+    background: #E02C6D;
 }
 
 
 /* header styles */
+/* .header{
+    height: 100vh;
+} */
 .header-top{
-    margin-top: 30px;
-    margin-bottom: 30px;
+    height: 80px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
 }
 .navigation{
     display: flex;
@@ -51,9 +68,42 @@ body{
     color: black;
 }
 
-/* banner styles */
+/* ==============================
+=======  banner styles ============
+=================================*/
 .banner{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    align-items: flex-end;
+    justify-items: center;
+    align-items: center;
+}
+.banner-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.banner-info h1{
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 70px;
+}
+.banner-info p{
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+
+
+
+.logos{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    width: 1110px;
+    height: 110px;
+    border: 1px solid gray;
 }
