@@ -144,8 +144,8 @@ body{
 .products{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    justify-content: center;
-    align-items: center;
+    align-items: stretch;
+    justify-items: center;
     gap: 30px;
 }
 .product{
@@ -302,6 +302,7 @@ footer{
     }
     .products{
         grid-template-columns: repeat(1, 1fr);
+        height: fit-content;
     }
     .product{
         justify-content: center;
